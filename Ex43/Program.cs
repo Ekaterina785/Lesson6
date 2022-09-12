@@ -1,0 +1,11 @@
+﻿Console.Write("Введите число b1 = ");
+float b1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число k1 = ");
+float k1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число b2 = ");
+float b2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число k2 = ");
+float k2 = Convert.ToInt32(Console.ReadLine());
+float x = (b2 - b1) / (k1 - k2);
+Console.Write(k1 * x + b1);
+Console.WriteLine(k2 * x + b2);
